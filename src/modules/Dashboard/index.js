@@ -19,7 +19,7 @@ const Dashboard = () => {
   const messageRef = useRef(null);
 
   useEffect(() => {
-  	setSocket(io('https://server-3phz.onrender.com'))
+  	setSocket(io('https://server-3phz.onrender.com:8080'))
   }, [])
 
   useEffect(() => {
